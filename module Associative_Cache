@@ -34,13 +34,13 @@ module Associative_Cache(block_out,MM, tag_num, read_en, write_en, reset, clk);
               // if tag_num is in tag - read the wanted block from Cache
               begin
                 block_out = cache[res[0]];
-                $display("HIT!",tag_num,  block_out );
+                $display("HIT!", block_out );
               end
             else
               begin
                 // if tag_num is not in tag - read the wanted block from MM
                 block_out = MM[tag_num];
-                $display("MISS...",tag_num, block_out);
+                $display("MISS...", block_out);
                 // then: if write enabled - write the block in Cache (USE FIFO replacement policy)
                 if(write_en)
                   begin
