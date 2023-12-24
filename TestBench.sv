@@ -55,7 +55,7 @@ module Associative_Cache_tb ;
           end
          
         // reset check
-        #10read_en = 1;
+        #10 read_en = 1;
         #10 reset = 1;
         #10 reset = 0; 
         $display("----- reset ------"); 
