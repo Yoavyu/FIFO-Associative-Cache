@@ -3,126 +3,76 @@
 module Associative_Cache_tb ;
   reg clk, read_en, write_en, reset;
   reg [11:0] tag_num;
-  logic [31:0] MM[4095:0];
+  reg  [11:0] write_num;
+  reg [31:0] block_in;
+  int i;
+ 
+ 
   
   always #5 clk = ~clk; // 100Hz clock
+  always@(read_en)
+    write_en = !read_en;
   
   
-  Associative_Cache uut1(block_out,MM, tag_num, read_en, write_en, reset, clk);
-  initial
-    // giving values to MM cells 
-    begin
-      for (int i=0 ; i<4096; i++)
-        begin
-        MM[i] = i; 
-        end
-    end
+  Associative_Cache uut1(block_out, tag_num,block_in,write_num, read_en, write_en, reset, clk);
+  
   
   initial
     
       begin
-        clk <= 0;
-        reset <= 0;
-        read_en <= 1; write_en <= 1; 
-        // basic check 
-        // insert 71 tag_num values (0 to 70), reset and then insert 71 to 80.
-        // in theory HIT is expected in cells 71-80.
-        for (int y =0; y<=70 ; y++)
-                  begin
-                      #10 tag_num <= y ; 
-                  end
-        #10 reset <= 1 ; 
-          
-        $display("--reset--");
+        clk = 0;
+        reset = 0;
+        i=0;
+        read_en = 0; 
         
-        for (int y =71; y<=80 ; y++)
-                  begin
-                      #10 tag_num <= y ; 
-                      reset <= 0 ;
-                  end
         
-        #10 write_en <= 0;  
-        for (int y =0; y<=100 ; y++)
-                  begin
-                      #10 tag_num <= y ; 
-                  end
-        #10 write_en <= 1;
-    // check :
-    //read = 1, write = 1
-    // read = 1, write = 0
-    //read = 0, write = 1
-    // read = 0, write = 0
-         repeat(2)
+    
+        while (i<100) // loading values to MM[0:99] cells 
+        begin
+         write_num <= i;
+         block_in  <= i;
+         #10 i = i + 1 ;
+        end
+        
+        #10 read_en = 1; 
+        for (int j =0; j<100; j++) // reading them from MM[0:99]
           begin
-             repeat(2)
-              begin
-                #10
-                $display("---------------------------------");
-                $display("read = ", read_en , " write = ", write_en);
-                for (int j =0; j<=200 ; j++)
-                  begin
-                      #10 tag_num <= j ; 
-                  end
-                for ( int k =200; k>=0 ; k--)
-                  begin
-                      #10 tag_num <= k ; 
-                  end
-                #10 write_en <= ~ write_en ; 
-              end
-            #10 read_en <= ~ read_en ; 
+            #10 tag_num <= j;
           end
-        $display("-----------------------------------------------------");
-        // now check same thing but with reset ON in the middle of loops
-        #10 read_en <= 1; write_en <= 1;
-        repeat(2)
-              begin
-                #10
-                $display("---------------------------------");
-                $display("read = ", read_en , " write = ", write_en);
-                for (int j =0; j<=190 ; j++)
-                  begin
-                      #10 tag_num <= j ; 
-                  end
-                #10reset <= 1;
-                $display("--reset--");
-                for (int j =191; j<=200 ; j++)
-                  begin
-                      #10 tag_num <= j ;
-                      reset <= 0;
-
-                  end
-                for ( int k =200; k>=0 ; k--)
-                  begin
-                      #10 tag_num <= k ; 
-                  end
-                #10 write_en <= ~ write_en ; 
-              end
-        #10 repeat(2)
-              begin
-                #10
-                $display("---------------------------------");
-                $display("read = ", read_en , " write = ", write_en);
-                for (int j =0; j<=200 ; j++)
-                  begin
-                      #10 tag_num <= j ; 
-                  end
-                for ( int k =200; k>=50 ; k--)
-                  begin
-                      #10 tag_num <= k ; 
-                  end
-                #10 reset <= 1;
-                $display("--reset--");
-                for ( int k =49; k>=0 ; k--)
-                  begin
-                      #10 tag_num <= k ;
-                      reset <= 0;
-                  end
-                #10 write_en <= ~ write_en ; 
-              end
-		$stop ; 
-      end 
+        for (int j =99; j>0; j--) // reading them from MM[99:1]
+          // expected hits: 36 to 99
+          begin
+            #10 tag_num <= j;
+          end
+        
+        #10 read_en = 0; //re-writing MM[0:99]
+        //expected hits: 1 to 35 and 71 to 99 due to FIFO replacement policy
+        for (int k =0; k<100; k++)
+          begin
+            #10 write_num <= k;
+        	    block_in  <= 10*k;
+         	
+          end
+         
+        // reset check
+        #10read_en = 1;
+        #10 reset = 1;
+        #10 reset = 0; 
+        $display("----- reset ------"); 
+        #10 tag_num <= 50;  // reading MM[50]
+        for (int m =0; m<100; m++) // reading  from MM[0:99]
+          //expected hits: ONLY MM[50] (because of reset)
+          begin
+            #10 tag_num <= m;
+          end
+         #10 $stop;
+      end
   
-      
+       initial
+         begin
+           $dumpfile("Associative_Cache_tb.vcd");
+           $dumpvars(0,Associative_Cache_tb); 
+         end 
   
        
 endmodule 
