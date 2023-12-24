@@ -6,4 +6,6 @@ On write mode: It gets a 12-bit number representing a block number (0 to 4095), 
 # Cache placement policy - FIFO
 If Miss - No Reread, Write No Allocate.
 If Hit - Write Through  
+
+Full project: https://www.edaplayground.com/x/ivXD
 ![image](https://github.com/Yoavyu/FIFO-Associative-Cache/assets/140505276/a1b4fa96-ce60-43f3-9909-75dddb284711)
