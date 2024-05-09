@@ -44,7 +44,7 @@ module Associative_Cache(block_out, tag_num,block_in,write_num,  read_en, write_
                 // if tag_num is not in tag - read the wanted block from MM
                 block_out = MM[tag_num];
                 $display("MISS...  blk number:", tag_num, " val is:",  block_out);
-                // then: if write enabled - write the block in Cache (USE FIFO replacement policy)
+                // then: write the block in Cache (USE FIFO replacement policy)
                 if(size < 64) // if Cache is not full yet
                   begin
                     cache[tail] <=  MM[tag_num];
@@ -72,7 +72,7 @@ module Associative_Cache(block_out, tag_num,block_in,write_num,  read_en, write_
                 MM[write_num] <= block_in;
                 cache[res1[0]] <= block_in;
                 tag [res1[0]] <= write_num ; 
-                valid_bit[res[0]] <= 1 ; 
+                valid_bit[res1[0]] <= 1 ; 
                 $display("HIT! blk number",  write_num,  " updated to val", block_in );
                 
               end
