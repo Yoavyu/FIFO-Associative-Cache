@@ -1,0 +1,512 @@
+CPU time: .696 seconds to compile + .674 seconds to elab + .581 seconds to link
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  May  9 03:52 2024
+MISS... blk number   0 updated to val         0
+MISS... blk number   1 updated to val         1
+MISS... blk number   2 updated to val         2
+MISS... blk number   3 updated to val         3
+MISS... blk number   4 updated to val         4
+MISS... blk number   5 updated to val         5
+MISS... blk number   6 updated to val         6
+MISS... blk number   7 updated to val         7
+MISS... blk number   8 updated to val         8
+MISS... blk number   9 updated to val         9
+MISS... blk number  10 updated to val        10
+MISS... blk number  11 updated to val        11
+MISS... blk number  12 updated to val        12
+MISS... blk number  13 updated to val        13
+MISS... blk number  14 updated to val        14
+MISS... blk number  15 updated to val        15
+MISS... blk number  16 updated to val        16
+MISS... blk number  17 updated to val        17
+MISS... blk number  18 updated to val        18
+MISS... blk number  19 updated to val        19
+MISS... blk number  20 updated to val        20
+MISS... blk number  21 updated to val        21
+MISS... blk number  22 updated to val        22
+MISS... blk number  23 updated to val        23
+MISS... blk number  24 updated to val        24
+MISS... blk number  25 updated to val        25
+MISS... blk number  26 updated to val        26
+MISS... blk number  27 updated to val        27
+MISS... blk number  28 updated to val        28
+MISS... blk number  29 updated to val        29
+MISS... blk number  30 updated to val        30
+MISS... blk number  31 updated to val        31
+MISS... blk number  32 updated to val        32
+MISS... blk number  33 updated to val        33
+MISS... blk number  34 updated to val        34
+MISS... blk number  35 updated to val        35
+MISS... blk number  36 updated to val        36
+MISS... blk number  37 updated to val        37
+MISS... blk number  38 updated to val        38
+MISS... blk number  39 updated to val        39
+MISS... blk number  40 updated to val        40
+MISS... blk number  41 updated to val        41
+MISS... blk number  42 updated to val        42
+MISS... blk number  43 updated to val        43
+MISS... blk number  44 updated to val        44
+MISS... blk number  45 updated to val        45
+MISS... blk number  46 updated to val        46
+MISS... blk number  47 updated to val        47
+MISS... blk number  48 updated to val        48
+MISS... blk number  49 updated to val        49
+MISS... blk number  50 updated to val        50
+MISS... blk number  51 updated to val        51
+MISS... blk number  52 updated to val        52
+MISS... blk number  53 updated to val        53
+MISS... blk number  54 updated to val        54
+MISS... blk number  55 updated to val        55
+MISS... blk number  56 updated to val        56
+MISS... blk number  57 updated to val        57
+MISS... blk number  58 updated to val        58
+MISS... blk number  59 updated to val        59
+MISS... blk number  60 updated to val        60
+MISS... blk number  61 updated to val        61
+MISS... blk number  62 updated to val        62
+MISS... blk number  63 updated to val        63
+MISS... blk number  64 updated to val        64
+MISS... blk number  65 updated to val        65
+MISS... blk number  66 updated to val        66
+MISS... blk number  67 updated to val        67
+MISS... blk number  68 updated to val        68
+MISS... blk number  69 updated to val        69
+MISS... blk number  70 updated to val        70
+MISS... blk number  71 updated to val        71
+MISS... blk number  72 updated to val        72
+MISS... blk number  73 updated to val        73
+MISS... blk number  74 updated to val        74
+MISS... blk number  75 updated to val        75
+MISS... blk number  76 updated to val        76
+MISS... blk number  77 updated to val        77
+MISS... blk number  78 updated to val        78
+MISS... blk number  79 updated to val        79
+MISS... blk number  80 updated to val        80
+MISS... blk number  81 updated to val        81
+MISS... blk number  82 updated to val        82
+MISS... blk number  83 updated to val        83
+MISS... blk number  84 updated to val        84
+MISS... blk number  85 updated to val        85
+MISS... blk number  86 updated to val        86
+MISS... blk number  87 updated to val        87
+MISS... blk number  88 updated to val        88
+MISS... blk number  89 updated to val        89
+MISS... blk number  90 updated to val        90
+MISS... blk number  91 updated to val        91
+MISS... blk number  92 updated to val        92
+MISS... blk number  93 updated to val        93
+MISS... blk number  94 updated to val        94
+MISS... blk number  95 updated to val        95
+MISS... blk number  96 updated to val        96
+MISS... blk number  97 updated to val        97
+MISS... blk number  98 updated to val        98
+MISS... blk number  99 updated to val        99
+MISS... blk number  99 updated to val        99
+MISS...  blk number:   x val is:         x
+MISS...  blk number:   0 val is:         0
+MISS...  blk number:   1 val is:         1
+MISS...  blk number:   2 val is:         2
+MISS...  blk number:   3 val is:         3
+MISS...  blk number:   4 val is:         4
+MISS...  blk number:   5 val is:         5
+MISS...  blk number:   6 val is:         6
+MISS...  blk number:   7 val is:         7
+MISS...  blk number:   8 val is:         8
+MISS...  blk number:   9 val is:         9
+MISS...  blk number:  10 val is:        10
+MISS...  blk number:  11 val is:        11
+MISS...  blk number:  12 val is:        12
+MISS...  blk number:  13 val is:        13
+MISS...  blk number:  14 val is:        14
+MISS...  blk number:  15 val is:        15
+MISS...  blk number:  16 val is:        16
+MISS...  blk number:  17 val is:        17
+MISS...  blk number:  18 val is:        18
+MISS...  blk number:  19 val is:        19
+MISS...  blk number:  20 val is:        20
+MISS...  blk number:  21 val is:        21
+MISS...  blk number:  22 val is:        22
+MISS...  blk number:  23 val is:        23
+MISS...  blk number:  24 val is:        24
+MISS...  blk number:  25 val is:        25
+MISS...  blk number:  26 val is:        26
+MISS...  blk number:  27 val is:        27
+MISS...  blk number:  28 val is:        28
+MISS...  blk number:  29 val is:        29
+MISS...  blk number:  30 val is:        30
+MISS...  blk number:  31 val is:        31
+MISS...  blk number:  32 val is:        32
+MISS...  blk number:  33 val is:        33
+MISS...  blk number:  34 val is:        34
+MISS...  blk number:  35 val is:        35
+MISS...  blk number:  36 val is:        36
+MISS...  blk number:  37 val is:        37
+MISS...  blk number:  38 val is:        38
+MISS...  blk number:  39 val is:        39
+MISS...  blk number:  40 val is:        40
+MISS...  blk number:  41 val is:        41
+MISS...  blk number:  42 val is:        42
+MISS...  blk number:  43 val is:        43
+MISS...  blk number:  44 val is:        44
+MISS...  blk number:  45 val is:        45
+MISS...  blk number:  46 val is:        46
+MISS...  blk number:  47 val is:        47
+MISS...  blk number:  48 val is:        48
+MISS...  blk number:  49 val is:        49
+MISS...  blk number:  50 val is:        50
+MISS...  blk number:  51 val is:        51
+MISS...  blk number:  52 val is:        52
+MISS...  blk number:  53 val is:        53
+MISS...  blk number:  54 val is:        54
+MISS...  blk number:  55 val is:        55
+MISS...  blk number:  56 val is:        56
+MISS...  blk number:  57 val is:        57
+MISS...  blk number:  58 val is:        58
+MISS...  blk number:  59 val is:        59
+MISS...  blk number:  60 val is:        60
+MISS...  blk number:  61 val is:        61
+MISS...  blk number:  62 val is:        62
+MISS...  blk number:  63 val is:        63
+MISS...  blk number:  64 val is:        64
+MISS...  blk number:  65 val is:        65
+MISS...  blk number:  66 val is:        66
+MISS...  blk number:  67 val is:        67
+MISS...  blk number:  68 val is:        68
+MISS...  blk number:  69 val is:        69
+MISS...  blk number:  70 val is:        70
+MISS...  blk number:  71 val is:        71
+MISS...  blk number:  72 val is:        72
+MISS...  blk number:  73 val is:        73
+MISS...  blk number:  74 val is:        74
+MISS...  blk number:  75 val is:        75
+MISS...  blk number:  76 val is:        76
+MISS...  blk number:  77 val is:        77
+MISS...  blk number:  78 val is:        78
+MISS...  blk number:  79 val is:        79
+MISS...  blk number:  80 val is:        80
+MISS...  blk number:  81 val is:        81
+MISS...  blk number:  82 val is:        82
+MISS...  blk number:  83 val is:        83
+MISS...  blk number:  84 val is:        84
+MISS...  blk number:  85 val is:        85
+MISS...  blk number:  86 val is:        86
+MISS...  blk number:  87 val is:        87
+MISS...  blk number:  88 val is:        88
+MISS...  blk number:  89 val is:        89
+MISS...  blk number:  90 val is:        90
+MISS...  blk number:  91 val is:        91
+MISS...  blk number:  92 val is:        92
+MISS...  blk number:  93 val is:        93
+MISS...  blk number:  94 val is:        94
+MISS...  blk number:  95 val is:        95
+MISS...  blk number:  96 val is:        96
+MISS...  blk number:  97 val is:        97
+MISS...  blk number:  98 val is:        98
+MISS...  blk number:  99 val is:        99
+HIT!  blk number:  99 val is:        99
+HIT!  blk number:  98 val is:        98
+HIT!  blk number:  97 val is:        97
+HIT!  blk number:  96 val is:        96
+HIT!  blk number:  95 val is:        95
+HIT!  blk number:  94 val is:        94
+HIT!  blk number:  93 val is:        93
+HIT!  blk number:  92 val is:        92
+HIT!  blk number:  91 val is:        91
+HIT!  blk number:  90 val is:        90
+HIT!  blk number:  89 val is:        89
+HIT!  blk number:  88 val is:        88
+HIT!  blk number:  87 val is:        87
+HIT!  blk number:  86 val is:        86
+HIT!  blk number:  85 val is:        85
+HIT!  blk number:  84 val is:        84
+HIT!  blk number:  83 val is:        83
+HIT!  blk number:  82 val is:        82
+HIT!  blk number:  81 val is:        81
+HIT!  blk number:  80 val is:        80
+HIT!  blk number:  79 val is:        79
+HIT!  blk number:  78 val is:        78
+HIT!  blk number:  77 val is:        77
+HIT!  blk number:  76 val is:        76
+HIT!  blk number:  75 val is:        75
+HIT!  blk number:  74 val is:        74
+HIT!  blk number:  73 val is:        73
+HIT!  blk number:  72 val is:        72
+HIT!  blk number:  71 val is:        71
+HIT!  blk number:  70 val is:        70
+HIT!  blk number:  69 val is:        69
+HIT!  blk number:  68 val is:        68
+HIT!  blk number:  67 val is:        67
+HIT!  blk number:  66 val is:        66
+HIT!  blk number:  65 val is:        65
+HIT!  blk number:  64 val is:        64
+HIT!  blk number:  63 val is:        63
+HIT!  blk number:  62 val is:        62
+HIT!  blk number:  61 val is:        61
+HIT!  blk number:  60 val is:        60
+HIT!  blk number:  59 val is:        59
+HIT!  blk number:  58 val is:        58
+HIT!  blk number:  57 val is:        57
+HIT!  blk number:  56 val is:        56
+HIT!  blk number:  55 val is:        55
+HIT!  blk number:  54 val is:        54
+HIT!  blk number:  53 val is:        53
+HIT!  blk number:  52 val is:        52
+HIT!  blk number:  51 val is:        51
+HIT!  blk number:  50 val is:        50
+HIT!  blk number:  49 val is:        49
+HIT!  blk number:  48 val is:        48
+HIT!  blk number:  47 val is:        47
+HIT!  blk number:  46 val is:        46
+HIT!  blk number:  45 val is:        45
+HIT!  blk number:  44 val is:        44
+HIT!  blk number:  43 val is:        43
+HIT!  blk number:  42 val is:        42
+HIT!  blk number:  41 val is:        41
+HIT!  blk number:  40 val is:        40
+HIT!  blk number:  39 val is:        39
+HIT!  blk number:  38 val is:        38
+HIT!  blk number:  37 val is:        37
+HIT!  blk number:  36 val is:        36
+MISS...  blk number:  35 val is:        35
+MISS...  blk number:  34 val is:        34
+MISS...  blk number:  33 val is:        33
+MISS...  blk number:  32 val is:        32
+MISS...  blk number:  31 val is:        31
+MISS...  blk number:  30 val is:        30
+MISS...  blk number:  29 val is:        29
+MISS...  blk number:  28 val is:        28
+MISS...  blk number:  27 val is:        27
+MISS...  blk number:  26 val is:        26
+MISS...  blk number:  25 val is:        25
+MISS...  blk number:  24 val is:        24
+MISS...  blk number:  23 val is:        23
+MISS...  blk number:  22 val is:        22
+MISS...  blk number:  21 val is:        21
+MISS...  blk number:  20 val is:        20
+MISS...  blk number:  19 val is:        19
+MISS...  blk number:  18 val is:        18
+MISS...  blk number:  17 val is:        17
+MISS...  blk number:  16 val is:        16
+MISS...  blk number:  15 val is:        15
+MISS...  blk number:  14 val is:        14
+MISS...  blk number:  13 val is:        13
+MISS...  blk number:  12 val is:        12
+MISS...  blk number:  11 val is:        11
+MISS...  blk number:  10 val is:        10
+MISS...  blk number:   9 val is:         9
+MISS...  blk number:   8 val is:         8
+MISS...  blk number:   7 val is:         7
+MISS...  blk number:   6 val is:         6
+MISS...  blk number:   5 val is:         5
+MISS...  blk number:   4 val is:         4
+MISS...  blk number:   3 val is:         3
+MISS...  blk number:   2 val is:         2
+MISS...  blk number:   1 val is:         1
+HIT! blk number  99 updated to val        99
+MISS... blk number   0 updated to val         0
+HIT! blk number   1 updated to val        10
+HIT! blk number   2 updated to val        20
+HIT! blk number   3 updated to val        30
+HIT! blk number   4 updated to val        40
+HIT! blk number   5 updated to val        50
+HIT! blk number   6 updated to val        60
+HIT! blk number   7 updated to val        70
+HIT! blk number   8 updated to val        80
+HIT! blk number   9 updated to val        90
+HIT! blk number  10 updated to val       100
+HIT! blk number  11 updated to val       110
+HIT! blk number  12 updated to val       120
+HIT! blk number  13 updated to val       130
+HIT! blk number  14 updated to val       140
+HIT! blk number  15 updated to val       150
+HIT! blk number  16 updated to val       160
+HIT! blk number  17 updated to val       170
+HIT! blk number  18 updated to val       180
+HIT! blk number  19 updated to val       190
+HIT! blk number  20 updated to val       200
+HIT! blk number  21 updated to val       210
+HIT! blk number  22 updated to val       220
+HIT! blk number  23 updated to val       230
+HIT! blk number  24 updated to val       240
+HIT! blk number  25 updated to val       250
+HIT! blk number  26 updated to val       260
+HIT! blk number  27 updated to val       270
+HIT! blk number  28 updated to val       280
+HIT! blk number  29 updated to val       290
+HIT! blk number  30 updated to val       300
+HIT! blk number  31 updated to val       310
+HIT! blk number  32 updated to val       320
+HIT! blk number  33 updated to val       330
+HIT! blk number  34 updated to val       340
+HIT! blk number  35 updated to val       350
+MISS... blk number  36 updated to val       360
+MISS... blk number  37 updated to val       370
+MISS... blk number  38 updated to val       380
+MISS... blk number  39 updated to val       390
+MISS... blk number  40 updated to val       400
+MISS... blk number  41 updated to val       410
+MISS... blk number  42 updated to val       420
+MISS... blk number  43 updated to val       430
+MISS... blk number  44 updated to val       440
+MISS... blk number  45 updated to val       450
+MISS... blk number  46 updated to val       460
+MISS... blk number  47 updated to val       470
+MISS... blk number  48 updated to val       480
+MISS... blk number  49 updated to val       490
+MISS... blk number  50 updated to val       500
+MISS... blk number  51 updated to val       510
+MISS... blk number  52 updated to val       520
+MISS... blk number  53 updated to val       530
+MISS... blk number  54 updated to val       540
+MISS... blk number  55 updated to val       550
+MISS... blk number  56 updated to val       560
+MISS... blk number  57 updated to val       570
+MISS... blk number  58 updated to val       580
+MISS... blk number  59 updated to val       590
+MISS... blk number  60 updated to val       600
+MISS... blk number  61 updated to val       610
+MISS... blk number  62 updated to val       620
+MISS... blk number  63 updated to val       630
+MISS... blk number  64 updated to val       640
+MISS... blk number  65 updated to val       650
+MISS... blk number  66 updated to val       660
+MISS... blk number  67 updated to val       670
+MISS... blk number  68 updated to val       680
+MISS... blk number  69 updated to val       690
+MISS... blk number  70 updated to val       700
+HIT! blk number  71 updated to val       710
+HIT! blk number  72 updated to val       720
+HIT! blk number  73 updated to val       730
+HIT! blk number  74 updated to val       740
+HIT! blk number  75 updated to val       750
+HIT! blk number  76 updated to val       760
+HIT! blk number  77 updated to val       770
+HIT! blk number  78 updated to val       780
+HIT! blk number  79 updated to val       790
+HIT! blk number  80 updated to val       800
+HIT! blk number  81 updated to val       810
+HIT! blk number  82 updated to val       820
+HIT! blk number  83 updated to val       830
+HIT! blk number  84 updated to val       840
+HIT! blk number  85 updated to val       850
+HIT! blk number  86 updated to val       860
+HIT! blk number  87 updated to val       870
+HIT! blk number  88 updated to val       880
+HIT! blk number  89 updated to val       890
+HIT! blk number  90 updated to val       900
+HIT! blk number  91 updated to val       910
+HIT! blk number  92 updated to val       920
+HIT! blk number  93 updated to val       930
+HIT! blk number  94 updated to val       940
+HIT! blk number  95 updated to val       950
+HIT! blk number  96 updated to val       960
+HIT! blk number  97 updated to val       970
+HIT! blk number  98 updated to val       980
+HIT! blk number  99 updated to val       990
+HIT!  blk number:   1 val is:        10
+----- reset ------
+MISS...  blk number:   1 val is:        10
+MISS...  blk number:  50 val is:       500
+MISS...  blk number:   0 val is:         0
+MISS...  blk number:   1 val is:        10
+MISS...  blk number:   2 val is:        20
+MISS...  blk number:   3 val is:        30
+MISS...  blk number:   4 val is:        40
+MISS...  blk number:   5 val is:        50
+MISS...  blk number:   6 val is:        60
+MISS...  blk number:   7 val is:        70
+MISS...  blk number:   8 val is:        80
+MISS...  blk number:   9 val is:        90
+MISS...  blk number:  10 val is:       100
+MISS...  blk number:  11 val is:       110
+MISS...  blk number:  12 val is:       120
+MISS...  blk number:  13 val is:       130
+MISS...  blk number:  14 val is:       140
+MISS...  blk number:  15 val is:       150
+MISS...  blk number:  16 val is:       160
+MISS...  blk number:  17 val is:       170
+MISS...  blk number:  18 val is:       180
+MISS...  blk number:  19 val is:       190
+MISS...  blk number:  20 val is:       200
+MISS...  blk number:  21 val is:       210
+MISS...  blk number:  22 val is:       220
+MISS...  blk number:  23 val is:       230
+MISS...  blk number:  24 val is:       240
+MISS...  blk number:  25 val is:       250
+MISS...  blk number:  26 val is:       260
+MISS...  blk number:  27 val is:       270
+MISS...  blk number:  28 val is:       280
+MISS...  blk number:  29 val is:       290
+MISS...  blk number:  30 val is:       300
+MISS...  blk number:  31 val is:       310
+MISS...  blk number:  32 val is:       320
+MISS...  blk number:  33 val is:       330
+MISS...  blk number:  34 val is:       340
+MISS...  blk number:  35 val is:       350
+MISS...  blk number:  36 val is:       360
+MISS...  blk number:  37 val is:       370
+MISS...  blk number:  38 val is:       380
+MISS...  blk number:  39 val is:       390
+MISS...  blk number:  40 val is:       400
+MISS...  blk number:  41 val is:       410
+MISS...  blk number:  42 val is:       420
+MISS...  blk number:  43 val is:       430
+MISS...  blk number:  44 val is:       440
+MISS...  blk number:  45 val is:       450
+MISS...  blk number:  46 val is:       460
+MISS...  blk number:  47 val is:       470
+MISS...  blk number:  48 val is:       480
+MISS...  blk number:  49 val is:       490
+HIT!  blk number:  50 val is:       500
+MISS...  blk number:  51 val is:       510
+MISS...  blk number:  52 val is:       520
+MISS...  blk number:  53 val is:       530
+MISS...  blk number:  54 val is:       540
+MISS...  blk number:  55 val is:       550
+MISS...  blk number:  56 val is:       560
+MISS...  blk number:  57 val is:       570
+MISS...  blk number:  58 val is:       580
+MISS...  blk number:  59 val is:       590
+MISS...  blk number:  60 val is:       600
+MISS...  blk number:  61 val is:       610
+MISS...  blk number:  62 val is:       620
+MISS...  blk number:  63 val is:       630
+MISS...  blk number:  64 val is:       640
+MISS...  blk number:  65 val is:       650
+MISS...  blk number:  66 val is:       660
+MISS...  blk number:  67 val is:       670
+MISS...  blk number:  68 val is:       680
+MISS...  blk number:  69 val is:       690
+MISS...  blk number:  70 val is:       700
+MISS...  blk number:  71 val is:       710
+MISS...  blk number:  72 val is:       720
+MISS...  blk number:  73 val is:       730
+MISS...  blk number:  74 val is:       740
+MISS...  blk number:  75 val is:       750
+MISS...  blk number:  76 val is:       760
+MISS...  blk number:  77 val is:       770
+MISS...  blk number:  78 val is:       780
+MISS...  blk number:  79 val is:       790
+MISS...  blk number:  80 val is:       800
+MISS...  blk number:  81 val is:       810
+MISS...  blk number:  82 val is:       820
+MISS...  blk number:  83 val is:       830
+MISS...  blk number:  84 val is:       840
+MISS...  blk number:  85 val is:       850
+MISS...  blk number:  86 val is:       860
+MISS...  blk number:  87 val is:       870
+MISS...  blk number:  88 val is:       880
+MISS...  blk number:  89 val is:       890
+MISS...  blk number:  90 val is:       900
+MISS...  blk number:  91 val is:       910
+MISS...  blk number:  92 val is:       920
+MISS...  blk number:  93 val is:       930
+MISS...  blk number:  94 val is:       940
+MISS...  blk number:  95 val is:       950
+MISS...  blk number:  96 val is:       960
+MISS...  blk number:  97 val is:       970
+MISS...  blk number:  98 val is:       980
+MISS...  blk number:  99 val is:       990
+$stop at time 5060000000 Scope: Associative_Cache_tb File: testbench.sv Line: 68
+Done
