@@ -1,7 +1,7 @@
-CPU time: .696 seconds to compile + .674 seconds to elab + .581 seconds to link
+CPU time: .449 seconds to compile + .427 seconds to elab + .411 seconds to link
 Chronologic VCS simulator copyright 1991-2023
 Contains Synopsys proprietary information.
-Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  May  9 03:52 2024
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Nov 11 03:09 2025
 MISS... blk number   0 updated to val         0
 MISS... blk number   1 updated to val         1
 MISS... blk number   2 updated to val         2
@@ -102,7 +102,7 @@ MISS... blk number  96 updated to val        96
 MISS... blk number  97 updated to val        97
 MISS... blk number  98 updated to val        98
 MISS... blk number  99 updated to val        99
-MISS... blk number  99 updated to val        99
+HIT! blk number  99 updated to val        99
 MISS...  blk number:   x val is:         x
 MISS...  blk number:   0 val is:         0
 MISS...  blk number:   1 val is:         1
@@ -375,36 +375,36 @@ MISS... blk number  67 updated to val       670
 MISS... blk number  68 updated to val       680
 MISS... blk number  69 updated to val       690
 MISS... blk number  70 updated to val       700
-HIT! blk number  71 updated to val       710
-HIT! blk number  72 updated to val       720
-HIT! blk number  73 updated to val       730
-HIT! blk number  74 updated to val       740
-HIT! blk number  75 updated to val       750
-HIT! blk number  76 updated to val       760
-HIT! blk number  77 updated to val       770
-HIT! blk number  78 updated to val       780
-HIT! blk number  79 updated to val       790
-HIT! blk number  80 updated to val       800
-HIT! blk number  81 updated to val       810
-HIT! blk number  82 updated to val       820
-HIT! blk number  83 updated to val       830
-HIT! blk number  84 updated to val       840
-HIT! blk number  85 updated to val       850
-HIT! blk number  86 updated to val       860
-HIT! blk number  87 updated to val       870
-HIT! blk number  88 updated to val       880
-HIT! blk number  89 updated to val       890
-HIT! blk number  90 updated to val       900
-HIT! blk number  91 updated to val       910
-HIT! blk number  92 updated to val       920
-HIT! blk number  93 updated to val       930
-HIT! blk number  94 updated to val       940
-HIT! blk number  95 updated to val       950
-HIT! blk number  96 updated to val       960
-HIT! blk number  97 updated to val       970
-HIT! blk number  98 updated to val       980
-HIT! blk number  99 updated to val       990
-HIT!  blk number:   1 val is:        10
+MISS... blk number  71 updated to val       710
+MISS... blk number  72 updated to val       720
+MISS... blk number  73 updated to val       730
+MISS... blk number  74 updated to val       740
+MISS... blk number  75 updated to val       750
+MISS... blk number  76 updated to val       760
+MISS... blk number  77 updated to val       770
+MISS... blk number  78 updated to val       780
+MISS... blk number  79 updated to val       790
+MISS... blk number  80 updated to val       800
+MISS... blk number  81 updated to val       810
+MISS... blk number  82 updated to val       820
+MISS... blk number  83 updated to val       830
+MISS... blk number  84 updated to val       840
+MISS... blk number  85 updated to val       850
+MISS... blk number  86 updated to val       860
+MISS... blk number  87 updated to val       870
+MISS... blk number  88 updated to val       880
+MISS... blk number  89 updated to val       890
+MISS... blk number  90 updated to val       900
+MISS... blk number  91 updated to val       910
+MISS... blk number  92 updated to val       920
+MISS... blk number  93 updated to val       930
+MISS... blk number  94 updated to val       940
+MISS... blk number  95 updated to val       950
+MISS... blk number  96 updated to val       960
+MISS... blk number  97 updated to val       970
+MISS... blk number  98 updated to val       980
+MISS... blk number  99 updated to val       990
+MISS...  blk number:   1 val is:        10
 ----- reset ------
 MISS...  blk number:   1 val is:        10
 MISS...  blk number:  50 val is:       500
@@ -458,7 +458,7 @@ MISS...  blk number:  46 val is:       460
 MISS...  blk number:  47 val is:       470
 MISS...  blk number:  48 val is:       480
 MISS...  blk number:  49 val is:       490
-HIT!  blk number:  50 val is:       500
+MISS...  blk number:  50 val is:       500
 MISS...  blk number:  51 val is:       510
 MISS...  blk number:  52 val is:       520
 MISS...  blk number:  53 val is:       530
@@ -508,5 +508,4 @@ MISS...  blk number:  96 val is:       960
 MISS...  blk number:  97 val is:       970
 MISS...  blk number:  98 val is:       980
 MISS...  blk number:  99 val is:       990
-$stop at time 5060000000 Scope: Associative_Cache_tb File: testbench.sv Line: 68
-Done
+$stop at time 5060000000 Scope: Associative_Cache_tb File: testbench.sv Line: 62
